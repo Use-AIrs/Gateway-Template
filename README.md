@@ -4,6 +4,8 @@ Discord of Jeremy Chone: https://discord.gg/XuKWrNGKpC
 
 ## This is work in Progress and not production ready.
 
+## Needs a local MangoDB instance without auth. If yor want the test to work you first need to place data in the DB.
+
 ## Known issues:
 - No Tenants DB Layer
 - No Role Features
