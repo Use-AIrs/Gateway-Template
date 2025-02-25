@@ -1,0 +1,29 @@
+[package]
+name = "lib-auth"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+doctest = false
+
+[lints]
+workspace = true
+
+[dependencies]
+# -- App Libs
+lib-utils = { path = "../../libs/lib-utils"}
+# -- Async
+tokio = { version = "1", features = ["full"] }
+# -- Json
+serde = { version = "1", features = ["derive"] }
+# -- Hashing (pwd-scheme01 & Token)
+hmac = "0.12"
+sha2 = "0.10"
+blake3 = "1.5.5"
+# -- Hashing (pwd-scheme02)
+argon2 = {version="0.5", features=["std"]}
+# -- Others
+uuid = {version = "1", features = ["v4","fast-rng",]}
+lazy-regex = "3"
+derive_more = { workspace = true }
+enum_dispatch = "0.3"
