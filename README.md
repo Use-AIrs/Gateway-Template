@@ -1,6 +1,8 @@
 # Rust10x MangoDB Web App Blueprint for Production Coding
 
 Discord of Jeremy Chone: https://discord.gg/XuKWrNGKpC
+YouTube of Jeremy Chone: https://www.youtube.com/@JeremyChone
+(Good stuff!)
 
 ## This is work in Progress and not production ready.
 
